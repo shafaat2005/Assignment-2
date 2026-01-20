@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="/style.css">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <nav class="sticky top-0 z-50 bg-[rgba(26,13,46,0.95)] backdrop-blur border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+
+
+            <div class="text-3xl font-bold">
+                <a href="/">Tech<span class="text-gradient">Wave</span></a>
+            </div>
+
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#about" class="text-gray-300 hover:text-pink-400">About</a>
+                <a href="#episodes" class="text-gray-300 hover:text-pink-400">Episodes</a>
+                <a href="#host" class="text-gray-300 hover:text-pink-400">Host</a>
+            </div>
+
+
+            <label for="menu-toggle" class="md:hidden text-2xl cursor-pointer">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <div class="hidden md:flex items-center">
+                <button class="button-primary">Subscribe <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="hero-section">
+        <div class="hero-content py-16">
+            <div style="position: relative; width: fit-content; margin: 0 auto;">
+                <div class="microphone-circle">
+                    <div class="badge">NEW</div>
+                    <img src="/assets/microphone.png" alt="" class="microphone-icon">
+                </div>
+            </div>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold my-5">
+                TechWave
+            </h1>
+
+            <p style="color: #d1d5db; margin-bottom: 30px; font-size: 14px;">Your daily dose of tech insights,
+                productivity hacks, and personal growth</p>
+            <div class="button-group">
+                <button class="button-primary"><i class="fab fa-spotify"></i> Listen on Spotify</button>
+                <button class="button-secondary"><i class="fas fa-envelope"></i> Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="pt-16">
+        <h2 class="text-2xl md:text-5xl font-bold text-white text-center mb-5">
+            About The Podcast
+        </h2>
+
+        <div class="text-center mb-10 max-w-3xl mx-auto">
+            <p class="text-gray-300 text-md leading-relaxed mb-4">
+                TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+                We break down complex topics into digestible insights, explore productivity strategies that actually
+                work,
+                and share stories of personal growth from industry leaders.
+                <br><br>
+                Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+            </p>
+        </div>
+    </section>
+    <hr class="w-3/4 opacity-50 mx-auto border-gray-600">
+
+    <section>
+        <div class="container mx-auto">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">150K+</div>
+                    <div class="stat-label">Monthly Listeners</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Episodes Published</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.9 ★</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Industry Experts</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-purple" style="padding: 120px 0;">
+        <h2 class="text-2xl md:text-5xl font-bold text-white text-center mb-4">Why Choose TechWave</h2>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="bg-[#351165]/50 rounded-3xl p-8 lg:row-span-2">
+                <div class="mb-6"><img src="/assets/headphone.png" alt=""></div>
+                <h3 class="text-white text-xl font-semibold mb-6">Premium Audio Quality</h3>
+                <p class="text-gray-400 text-md leading-relaxed">
+                    Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                    engineering.
+                    Every episode is mastered for optimal listening across all devices and platforms.
+                </p>
+            </div>
+
+            <div class="bg-[#351165]/50 rounded-3xl p-8 lg:col-span-2">
+                <div class="mb-6 text-pink-400 text-3xl"><img src="/assets/device.png" alt=""></div>
+                <h3 class="text-white text-lg font-semibold mb-2">Mobile Friendly</h3>
+                <p class="text-gray-400 text-md">
+                    Listen on the go with seamless mobile experience and offline downloads.
+                </p>
+            </div>
+
+            <div class="bg-[#351165]/50 rounded-3xl p-8 lg:col-span-2">
+                <div class="mb-6 text-pink-400 text-3xl"><img src="/assets/location.png" alt=""></div>
+                <h3 class="text-white text-lg font-semibold mb-2">Global Community</h3>
+                <p class="text-gray-400 text-md">
+                    Connect with tech enthusiasts from over 120 countries worldwide.
+                </p>
+            </div>
+
+            <div class="bg-[#351165]/50 rounded-3xl p-8 md:col-span-2">
+                <div class="mb-6 text-pink-400 text-3xl">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M40.4663 6.04741C41.1336 5.11324 42.3503 4.75413 43.418 5.17583C44.4856 5.59779 45.1294 6.69178 44.978 7.82964L42.8564 23.75H52.3633C52.9411 23.75 53.5484 23.7486 54.0454 23.794C54.452 23.8312 55.1508 23.9208 55.8252 24.3335L56.1133 24.5313L56.4258 24.8023C57.1191 25.4717 57.5322 26.3872 57.5684 27.3609C57.6037 28.315 57.2033 29.0698 56.9678 29.4727C56.7158 29.9034 56.3611 30.3967 56.0254 30.8667L39.5337 53.9527C38.8664 54.8869 37.6497 55.246 36.582 54.8243C35.5144 54.4023 34.8706 53.3083 35.022 52.1705L37.1436 36.25H27.6367C27.0589 36.25 26.4516 36.2515 25.9546 36.2061C25.4898 36.1636 24.6425 36.0521 23.8867 35.4688C23.0057 34.7886 22.4729 33.7515 22.4316 32.6392C22.3963 31.6851 22.7967 30.9303 23.0322 30.5274C23.2842 30.0967 23.6389 29.6034 23.9746 29.1334L40.4663 6.04741ZM22.5 41.25C23.8807 41.25 25 42.3693 25 43.75C25 45.1308 23.8807 46.25 22.5 46.25H8.75C7.36929 46.25 6.25 45.1308 6.25 43.75C6.25 42.3693 7.36929 41.25 8.75 41.25H22.5ZM28.6084 31.25H40C40.7201 31.25 41.4052 31.5606 41.8799 32.1021C42.3544 32.6441 42.573 33.3656 42.478 34.0796L41.3037 42.8687L51.3916 28.75H40C39.2799 28.75 38.5948 28.4395 38.1201 27.898C37.6456 27.356 37.427 26.6345 37.522 25.9205L38.6938 17.129L28.6084 31.25ZM16.25 27.5C17.6307 27.5 18.75 28.6193 18.75 30C18.75 31.3808 17.6307 32.5 16.25 32.5H5C3.61929 32.5 2.5 31.3808 2.5 30C2.5 28.6193 3.61929 27.5 5 27.5H16.25ZM22.5 13.7501C23.8807 13.7501 25 14.8693 25 16.2501C25 17.6308 23.8807 18.7501 22.5 18.7501H10C8.61929 18.7501 7.5 17.6308 7.5 16.2501C7.5 14.8693 8.61929 13.7501 10 13.7501H22.5Z"
+                            fill="url(#paint0_linear_20_66)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_20_66" x1="10.6742" y1="45.7944" x2="45.0679" y2="11.7558"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F7E93F" />
+                                <stop offset="0.5112" stop-color="#FB09B4" />
+                                <stop offset="1" stop-color="#9100F8" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                </div>
+                <h3 class="text-white text-lg font-semibold mb-2">Exclusive Interviews</h3>
+                <p class="text-gray-400 text-md leading-relaxed">
+                    Get unprecedented access to industry titans, startup founders, and tech visionaries.
+                    Dive deep into their journeys, failures, and success strategies.
+                </p>
+            </div>
+
+            <div class="bg-[#351165]/50 rounded-3xl p-8">
+                <div class="mb-6 text-pink-400 text-3xl"><img src="/assets/resource.png" alt=""></div>
+                <h3 class="text-white text-lg font-semibold mb-2">Rich Resources</h3>
+                <p class="text-gray-400 text-md">
+                    Access show notes, transcripts, and additional learning materials for every episode.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="episodes" style="padding: 120px 0;">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-5xl font-bold text-white text-center mb-4">Featured Episodes</h2>
+            <div class="episodes-grid">
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="https://i.ytimg.com/vi/6xm3lbYyXZ8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCzRA28BaHXyP7hFAFEDzBgRbUE_Q"
+                            alt="">
+                        <div class="play-button">
+                            <a href="https://www.youtube.com/watch?v=6xm3lbYyXZ8">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30" cy="30" r="30" fill="url(#paint0_linear_3_7184)" />
+                                    <path d="M23.3333 18.5667V41.9L41.6667 30.2333L23.3333 18.5667Z" fill="white" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_3_7184" x1="8.90584" y1="48.9538" x2="49.9465"
+                                            y2="12.0776" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#F7E93F" />
+                                            <stop offset="0.5112" stop-color="#FB09B4" />
+                                            <stop offset="1" stop-color="#9100F8" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="episode-content">
+                        <h3 class="text-xl font-bold mb-3">The Future of AI in Everyday Life</h3>
+
+                        <p class="font-light text-gray-400 text-md leading-relaxed">Exploring how artificial
+                            intelligence is reshaping industries and what it means for your next
+                            career move.</p>
+                        <div class="episode-duration"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.66669 10.0001C1.66669 5.39758 5.39752 1.66675 10 1.66675C14.6025 1.66675 18.3334 5.39758 18.3334 10.0001C18.3334 14.6026 14.6025 18.3334 10 18.3334C5.39752 18.3334 1.66669 14.6026 1.66669 10.0001ZM10 6.66675C10 6.44573 9.91222 6.23377 9.75594 6.07749C9.59966 5.92121 9.3877 5.83341 9.16669 5.83341C8.94567 5.83341 8.73371 5.92121 8.57743 6.07749C8.42115 6.23377 8.33335 6.44573 8.33335 6.66675V10.8334C8.33335 11.0544 8.42115 11.2664 8.57743 11.4227C8.73371 11.5789 8.94567 11.6667 9.16669 11.6667H13.3334C13.5544 11.6667 13.7663 11.5789 13.9226 11.4227C14.0789 11.2664 14.1667 11.0544 14.1667 10.8334C14.1667 10.6124 14.0789 10.4004 13.9226 10.2442C13.7663 10.0879 13.5544 10.0001 13.3334 10.0001H10V6.66675Z"
+                                    fill="#00FF88" />
+                            </svg>
+                            42 min</div>
+                    </div>
+                </div>
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="https://i.ytimg.com/vi/plothTBL1AA/maxresdefault.jpg" alt="">
+                        <div class="play-button">
+                            <a href="https://www.youtube.com/watch?v=plothTBL1AA">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30" cy="30" r="30" fill="url(#paint0_linear_3_7184)" />
+                                    <path d="M23.3333 18.5667V41.9L41.6667 30.2333L23.3333 18.5667Z" fill="white" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_3_7184" x1="8.90584" y1="48.9538" x2="49.9465"
+                                            y2="12.0776" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#F7E93F" />
+                                            <stop offset="0.5112" stop-color="#FB09B4" />
+                                            <stop offset="1" stop-color="#9100F8" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="episode-content">
+                        <h3 class="text-xl font-bold mb-3">Building Better Habits for Remote Work</h3>
+
+                        <p class="font-light text-gray-400 text-md leading-relaxed">Practical strategies for staying
+                            productive and maintaining work-life balance in a remote
+                            setup.</p>
+                        <div class="episode-duration"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.66669 10.0001C1.66669 5.39758 5.39752 1.66675 10 1.66675C14.6025 1.66675 18.3334 5.39758 18.3334 10.0001C18.3334 14.6026 14.6025 18.3334 10 18.3334C5.39752 18.3334 1.66669 14.6026 1.66669 10.0001ZM10 6.66675C10 6.44573 9.91222 6.23377 9.75594 6.07749C9.59966 5.92121 9.3877 5.83341 9.16669 5.83341C8.94567 5.83341 8.73371 5.92121 8.57743 6.07749C8.42115 6.23377 8.33335 6.44573 8.33335 6.66675V10.8334C8.33335 11.0544 8.42115 11.2664 8.57743 11.4227C8.73371 11.5789 8.94567 11.6667 9.16669 11.6667H13.3334C13.5544 11.6667 13.7663 11.5789 13.9226 11.4227C14.0789 11.2664 14.1667 11.0544 14.1667 10.8334C14.1667 10.6124 14.0789 10.4004 13.9226 10.2442C13.7663 10.0879 13.5544 10.0001 13.3334 10.0001H10V6.66675Z"
+                                    fill="#00FF88" />
+                            </svg>
+                            38 min</div>
+                    </div>
+                </div>
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="https://i.ytimg.com/vi/DxkWokK3w_4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC6CvONFerSQeNVHTUWGF6SXy1H0w"
+                            alt="">
+                        <div class="play-button">
+                            <a href="https://www.youtube.com/watch?v=DxkWokK3w_4">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30" cy="30" r="30" fill="url(#paint0_linear_3_7184)" />
+                                    <path d="M23.3333 18.5667V41.9L41.6667 30.2333L23.3333 18.5667Z" fill="white" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_3_7184" x1="8.90584" y1="48.9538" x2="49.9465"
+                                            y2="12.0776" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#F7E93F" />
+                                            <stop offset="0.5112" stop-color="#FB09B4" />
+                                            <stop offset="1" stop-color="#9100F8" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="episode-content">
+                        <h3 class="text-xl font-bold mb-3">Career Growth in Tech: A Roadmap</h3>
+
+                        <p class="font-light text-gray-400 text-md leading-relaxed">Expert advice on navigating your
+                            tech career development and breaking barriers to senior
+                            positions.</p>
+                        <div class="episode-duration"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.66669 10.0001C1.66669 5.39758 5.39752 1.66675 10 1.66675C14.6025 1.66675 18.3334 5.39758 18.3334 10.0001C18.3334 14.6026 14.6025 18.3334 10 18.3334C5.39752 18.3334 1.66669 14.6026 1.66669 10.0001ZM10 6.66675C10 6.44573 9.91222 6.23377 9.75594 6.07749C9.59966 5.92121 9.3877 5.83341 9.16669 5.83341C8.94567 5.83341 8.73371 5.92121 8.57743 6.07749C8.42115 6.23377 8.33335 6.44573 8.33335 6.66675V10.8334C8.33335 11.0544 8.42115 11.2664 8.57743 11.4227C8.73371 11.5789 8.94567 11.6667 9.16669 11.6667H13.3334C13.5544 11.6667 13.7663 11.5789 13.9226 11.4227C14.0789 11.2664 14.1667 11.0544 14.1667 10.8334C14.1667 10.6124 14.0789 10.4004 13.9226 10.2442C13.7663 10.0879 13.5544 10.0001 13.3334 10.0001H10V6.66675Z"
+                                    fill="#00FF88" />
+                            </svg>
+                            51 min</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="host" class="py-20 px-5">
+        <h2 class="text-white text-3xl md:text-4xl font-bold text-center mb-14">
+            Meet The Host
+        </h2>
+
+        <div
+            class="max-w-6xl mx-auto bg-[#351165]/50 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
+
+            <div class="w-50 h-50 rounded-full bg-black flex items-center justify-center text-6xl">
+                <img src="/assets/host.png" alt="">
+            </div>
+
+            <div class="text-center md:text-left">
+                <h3 class="text-white text-4xl font-semibold mb-3">
+                    Alex Kumar
+                </h3>
+
+                <p class="text-gray-300 text-sm leading-relaxed mb-4 max-w-3xl">
+                    Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for
+                    over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares
+                    insights from industry leaders and practical advice for anyone looking to grow in tech.
+                </p>
+
+                <div class="flex justify-center md:justify-start gap-4">
+                    <a href="#"
+                        class="w-10 h-10 rounded-full border border-pink-500 flex items-center justify-center text-pink-500 hover:bg-pink-500 hover:text-white transition">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#"
+                        class="w-10 h-10 rounded-full border border-pink-500 flex items-center justify-center text-pink-500 hover:bg-pink-500 hover:text-white transition">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#"
+                        class="w-10 h-10 rounded-full border border-pink-500 flex items-center justify-center text-pink-500 hover:bg-pink-500 hover:text-white transition">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#"
+                        class="w-10 h-10 rounded-full border border-pink-500 flex items-center justify-center text-pink-500 hover:bg-pink-500 hover:text-white transition">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="footer-section py-20 px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
+            <span class="text-white">Tech</span>
+            <span class="text-gradient">
+                Wave
+            </span>
+        </h2>
+
+        <div class="flex flex-wrap justify-center items-center gap-6 mb-8 text-gray-300 text-sm">
+            <a href="#" class="flex items-center gap-2 hover:text-white transition">
+                <i class="fa-brands fa-spotify"></i>
+                Spotify
+            </a>
+            <a href="#" class="flex items-center gap-2 hover:text-white transition">
+                <i class="fa-solid fa-podcast"></i>
+                Apple Podcasts
+            </a>
+            <a href="#" class="flex items-center gap-2 hover:text-white transition">
+                <i class="fa-brands fa-youtube"></i>
+                YouTube
+            </a>
+            <a href="#" class="flex items-center gap-2 hover:text-white transition">
+                <i class="fa-brands fa-twitter"></i>
+                Twitter
+            </a>
+        </div>
+
+        <p class="text-gray-400 text-sm">
+            © 2026 TechWave Podcast. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
